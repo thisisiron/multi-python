@@ -1,0 +1,6 @@
+light_blue = "\x1b[1;36m"
+yellow = "\x1b[33;20m"
+green = "\x1b[1;32m"
+reset = "\x1b[0m"
+red = "\x1b[31;20m"
+bold_red = "\x1b[31;1m"
