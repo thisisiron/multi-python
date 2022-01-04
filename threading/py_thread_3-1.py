@@ -1,5 +1,5 @@
 """
-Threading 3: ThreadPoolExecutor
+Threading 3: ThreadPoolExecutor, submit
 
 concurrent module 사용
     1. Threading을 하나 하나 생성해서 사용하는 것이 아니라 여러 Thread를 생성하여 사용
