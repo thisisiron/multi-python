@@ -1,5 +1,5 @@
 """
-Multiprocessing - Sharing state
+Multi-Processing: Sharing state
 
 4-1 문제 해결 방법: Array 사용
 
