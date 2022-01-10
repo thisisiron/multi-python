@@ -3,7 +3,7 @@ Threading 5: Queue
 
 Producer / Consumer Pattern
 
-5-1애서 무한 실행되는 문제 해결 방법:
+5-1에서 무한 실행되는 문제 해결 방법:
     With문 안에 set 함수 호출
 """
 
