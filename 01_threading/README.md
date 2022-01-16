@@ -1,8 +1,13 @@
-# Thread
+# Multi-Threading
 
+## 개념
+### Process란?
+> Memory 위에서 실행되고 있는 프로그램
 
-## Thread란?
-Process 내에서 실행되는 흐름의 단위
+### Thread란?
+> Process 내에서 실행되는 흐름의 단위
+
+### Multi-Threading 
 
 
 ### 실습
