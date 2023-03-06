@@ -1,6 +1,11 @@
 """
 Threading 3: ThreadPoolExecutor, as_completed
 
+submit 함수
+1. 각 task에 맞게 여러 arguments를 다양한 function에 전달 가능
+2. 순서 보장 X (map함수는 전달한 순서대로 결과 반환)
+3. 반환 값의 타입은 Future (as_compleated, wait 등 함수 혹은 여러 설정이 가능)
+
 ThreadPoolExecutor을 with로 이용하여 실행
 """
 

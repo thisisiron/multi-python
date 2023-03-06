@@ -4,7 +4,7 @@ Threading 2: Daemon
 Daemon Thread
     1. Main-Thread 종료시 즉시 종료 
     (DON'T FORGET! Sub-Thread는 Main-Thread가 종료되더라도 자신의 일이 끝나지 않으면 계속 수행)
-    2. 주로 Backgound 무한 대기 이벤트 발생 실행하는 곳에 사용 
+    2. 주로 Backgound 무한 대기 이벤트 발생 실행하는 곳에 사용
 
 ※ 주의
     상황: Daemon을 True로 설정하고 굳이 join함수를 사용한 경우 
@@ -14,6 +14,7 @@ Daemon Thread
 
 import logging
 import threading
+
 from color import light_blue, yellow, reset, green, red
 
 

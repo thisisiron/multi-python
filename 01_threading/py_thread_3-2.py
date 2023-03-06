@@ -1,6 +1,8 @@
 """
 Threading 3: ThreadPoolExecutor, map
 
+map 함수: order를 보장
+
 ThreadPoolExecutor을 with로 이용하여 실행
     max_workers를 적절히 설정
 """
@@ -32,8 +34,7 @@ def main():
 
     ts = time.time()
     with ThreadPoolExecutor(max_workers=3) as executor:
-        jobs = executor.map(do, ['1', '2', '3', '4'], [range(101), range(1001), range(10001), range(100001)])
-
+        jobs = executor.map(do, ['1', '2', '3', '4'], [range(10000001), range(1000001), range(100001), range(10001)])
         logging.info(f'{green}[Main] {yellow}Result of jobs -> {list(jobs)}{reset}')
     print(f'{time.time() - ts} sec')
 

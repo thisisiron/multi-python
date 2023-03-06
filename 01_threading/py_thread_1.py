@@ -9,6 +9,7 @@ Sub-Thread는 Main-Thread 종료 여부와 상관없이 자신의 코드를 끝�
 import time
 import logging
 import threading
+
 from color import light_blue, yellow, reset, green
 
 

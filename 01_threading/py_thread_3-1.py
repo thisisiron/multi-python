@@ -1,6 +1,9 @@
 """
 Threading 3: ThreadPoolExecutor, submit
 
+job1: 0부터 100까지 합
+job2: 0부터 1000까지 합
+
 concurrent module 사용
     1. Threading을 하나 하나 생성해서 사용하는 것이 아니라 여러 Thread를 생성하여 사용
     2. 간편하게 with를 사용하여 Thread 생성 및 소멸(Lifecycle 관리 용이)  -> 3-2에서 사용
